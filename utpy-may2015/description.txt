@@ -1,0 +1,56 @@
+The Many Faces of Python Descriptors
+Eric Snow, Utah Python Users Group, May 2015
+
+One wonderful aspect of Python is that you can use it to great effect
+without knowing about any of its power features.  However, to get the
+most out of Python it's a great idea to broaden your knowledge of
+features like metaclasses, the import system, and "special" methods.
+
+This talk will reveal a key power feature that plays an important role
+in customizing attribute lookup: descriptors.  Even if you have never
+heard of descriptors, this discussion will matter to you.  You may not
+realize it but you use descriptors constantly.  Some examples are
+methods, staticmethod, classmethod, and property.  For those that
+already have a good handle on descriptors, expect to get an even
+deeper understanding.  I plan on doing the same. :)
+
+We will first look at object.__getattribute__, which is the default
+implementation for attribute lookup (the dotted access syntax), as
+well as at how "special" methods are looked up.  For both we will
+identify what part descriptors play.  From there we will quickly cover
+the different components of a descriptor and a couple of descriptors
+that we use all the time.
+
+At this point we should have a clear enough understanding to dive into
+the really neat stuff: all the ways we can use descriptors to get
+wildly different attribute lookup behavior.  For instance, we will
+look at how to use the descriptor protocol to create class-only
+attributes (without having to use metaclasses).
+
+I would classify this talk as intermediate level.  However, even
+beginners should be able to follow along and leave with useful tools.
+
+Rough Outline:
+
+* attribute lookup (dotted access syntax)
+  + object.__getattribute__
+  + special method lookup
+  + descriptor getters
+* components of descriptors
+  + __get__, __set__, __delete__
+  + "data-only" descriptors
+  + inspect.isdatadescriptor, etc.
+* examples
+  + methods
+  + property (descriptor as a decorator)
+* permutations of descriptor components
+  + classmethod
+  + staticmethod
+  + classonly
+  + ...
+* bonus: a few fun descriptors
+  + lazy attributes
+  + reverse name binding
+  + placeholders
+* summary
+* questions
