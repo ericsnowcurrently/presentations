@@ -1,0 +1,16 @@
+Adding Something New to the Python Language: Multiple Interpreters for Multi-Core Support
+
+Here's your chance to see how the Python language evolves and even to
+participate in the process.  I'll be discussing a proposal I made on
+python-ideas@python.org[1] to improve Python's multi-core support.
+There are still a lot of open questions and the solution is far from
+settled.
+
+First I'll explain the problem space and the feedback I've gotten thus
+far.  Then we'll collaborate on possible solutions to open questions.
+Throughout we'll take a look at how what we're doing fits into the
+Python core development process.  The focus will be on collaborating
+on a solution to a real problem that has a good chance of impacting
+the Python language (in version 3.6).
+
+[1] https://mail.python.org/pipermail/python-ideas/2015-June/034177.html
