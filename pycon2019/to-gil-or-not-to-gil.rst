@@ -14,6 +14,7 @@ Log of Time Spent
 * (Mar 28) more prep
    * summarize slide layout
    * update time layout
+   * finish first half of slides list
 * 
 * (Apr 19) present at MS-internal "Python Brownbag"
 * 
@@ -94,53 +95,47 @@ Slides / Granular Outline
 --------------------------
 
 * title
+* ? Ruby
 * intro
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
+* overall outline
+* time layout
+* ++++ the GIL! ++++
+   * section outline
+   * -- context --
+      * overview of CPython's architecture
+      * GC and refcounting
+      * overview of the eval loop
+      * what happens when a Python thread is created?
+      * CPython runtime state that is shared by threads
+   * -- what is the GIL? --
+      * description
+      * why?  race conditions on runtime state and objects
+      * why global?
+   * -- costs & benefits of the GIL --
+      * list (multi-core parallelism, ???)
+      * list (cheaper, low contention for global resources, simpler eval impl, simpler object/C-API impl)
+   * -- effect and perception --
+      * who does it really affect?
+      * so why does the GIL get such a bad wrap?
+   * -- working around the GIL
+      * (C) extension modules
+      * async
+      * multiprocessing
+   * -- past attempts to remove --
+      * list(???, ???, Gilectomy)
+      * other implementations (unladen swallow, ???)
+* ++++ the Future! ++++
+   * section outline
+   * -- other Python implementations --
+      * Jython
+      * IronPython
+      * PyPy
+      * PyPy-STM
+      * MicroPython
+   * -- new C-API --
+      * 
+   * -- subinterpreters --
+      * 
 * Thanks!  Questions?
 * Thanks!  Questions?  Resources
 
