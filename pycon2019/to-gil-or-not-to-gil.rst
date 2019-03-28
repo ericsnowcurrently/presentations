@@ -10,7 +10,15 @@ Log of Time Spent
 * (Feb 15) started prep
    * added time layout
    * started list of slides
-*
+* (Mar ?) decided to skip Q&A
+* (Mar 28) more prep
+* 
+* (Apr 19) present at MS-internal "Python Brownbag"
+* 
+* (May 3, 14:35) (Cleveland) present at PyCon
+   * first day, fifth session (second after lunch)
+   * 14:35, 30 minutes
+   * 
 
 
 *practice sessions*
@@ -39,30 +47,36 @@ Time Layout
  minute   topic
 ======== ====================
   1       what is the GIL?
-  2       costs of the GIL
-  3       benefits of the GIL
-  4       who does it really affect?
-  5       so why does the GIL get such a bad wrap?
-  6       working around the GIL: (C) extension modules
-  7       working around the GIL: async
-  8       past attempts to remove
-  9+      past attempts to remove
- 10       subinterpreters
- 11+      subinterpreters
- 12+      subinterpreters
- 13+      subinterpreters
- 14+      subinterpreters
- 15+      subinterpreters
- 16+      subinterpreters
- 17+      subinterpreters
- 18       new C-API
- 19+      new C-API
- 20+      new C-API
- 21+      new C-API
- 22+      new C-API
- 23+      new C-API
- 24       other Python implementations
- 25+      other Python implementations
+  2+      what is the GIL?
+  3+      what is the GIL?
+  4+      what is the GIL?
+  5       costs of the GIL
+  6       benefits of the GIL
+  7       who does it really affect?
+  8       so why does the GIL get such a bad wrap?
+  9       working around the GIL: (C) extension modules
+  0       working around the GIL: async
+ 10       past attempts to remove
+ 11+      past attempts to remove
+ 12       new C-API
+ 13+      new C-API
+ 14+      new C-API
+ 15+      new C-API
+ 16+      new C-API
+ 17+      new C-API
+ 18       subinterpreters
+ 19+      subinterpreters
+ 20+      subinterpreters
+ 21+      subinterpreters
+ 22+      subinterpreters
+ 23+      subinterpreters
+ 24+      subinterpreters
+ 25+      subinterpreters
+ 26+      subinterpreters
+ 27+      subinterpreters
+ 28+      subinterpreters
+ 29       other Python implementations
+ 30+      other Python implementations
 ======== ====================
 
 
