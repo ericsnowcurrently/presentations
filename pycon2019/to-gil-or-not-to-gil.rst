@@ -12,6 +12,7 @@ Log of Time Spent
    * started list of slides
 * (Mar ?) decided to skip Q&A
 * (Mar 28) more prep
+   * summarize slide layout
 * 
 * (Apr 19) present at MS-internal "Python Brownbag"
 * 
@@ -78,6 +79,15 @@ Time Layout
  29       other Python implementations
  30+      other Python implementations
 ======== ====================
+
+
+Slide Structure / Layout
+--------------------------
+
+Per-slide:
+* top: sliding global context; current section bold
+* top: sliding section context; current slide title bold, double-size
+* bottom-right: i/n slide number
 
 
 Slides / Granular Outline
