@@ -13,6 +13,7 @@ Log of Time Spent
 * (Mar ?) decided to skip Q&A
 * (Mar 28) more prep
    * summarize slide layout
+   * update time layout
 * 
 * (Apr 19) present at MS-internal "Python Brownbag"
 * 
@@ -47,27 +48,26 @@ Time Layout
 ======== ====================
  minute   topic
 ======== ====================
-  1       what is the GIL?
-  2+      what is the GIL?
-  3+      what is the GIL?
-  4+      what is the GIL?
-  5       costs of the GIL
-  6       benefits of the GIL
-  7       who does it really affect?
-  8       so why does the GIL get such a bad wrap?
-  9       working around the GIL: (C) extension modules
-  0       working around the GIL: async
- 10       past attempts to remove
- 11+      past attempts to remove
- 12       new C-API
- 13+      new C-API
- 14+      new C-API
+  1       intro
+  2+      what is the GIL? (context)
+  3+      what is the GIL? (context)
+  4+      what is the GIL? (context)
+  5+      what is the GIL? (context)
+  6+      what is the GIL?
+  7+      what is the GIL?
+  8       costs & benefits
+  9       impact and perception
+ 10       working around the GIL
+ 11+      working around the GIL
+ 12       past attempts to remove
+ 13       other Python implementations
+ 14       new C-API
  15+      new C-API
  16+      new C-API
  17+      new C-API
- 18       subinterpreters
- 19+      subinterpreters
- 20+      subinterpreters
+ 18+      new C-API
+ 19+      new C-API
+ 20       subinterpreters
  21+      subinterpreters
  22+      subinterpreters
  23+      subinterpreters
@@ -76,8 +76,8 @@ Time Layout
  26+      subinterpreters
  27+      subinterpreters
  28+      subinterpreters
- 29       other Python implementations
- 30+      other Python implementations
+ 29+      subinterpreters
+ 30+      subinterpreters
 ======== ====================
 
 
