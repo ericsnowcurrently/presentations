@@ -21,7 +21,12 @@ Log of Time Spent
 * (May 3, 14:35) (Cleveland) present at PyCon
    * first day, fifth session (second after lunch)
    * 14:35, 30 minutes
-   * 
+   * opposing talks:
+      * "Take Back the Web with GraphQL" - Robert Myers
+      * "Everything at Once: Python's Many Concurrency Models" - Jess Shapiro
+      * "Life Is Better Painted Black, or: How to Stop Worrying and Embrace Auto-Formatting" - Łukasz Langa
+      * "Wily Python: Writing simpler and more maintainable Python" - Anthony Shaw
+      * "Programación para periodistas: el uso de Python en la extracción y análisis de reportajes" - Judite Macedo Cypreste
 
 
 *practice sessions*
