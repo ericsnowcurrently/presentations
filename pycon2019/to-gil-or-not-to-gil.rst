@@ -18,7 +18,13 @@ Log of Time Spent
 * (Apr 15) flesh out slides
    * fill in more outline
    * start slide deck
-* (Apr 19) present at MS-internal "Python Brownbag"
+* (Apr 16) work on slide deck
+* (Apr 17) work on slide deck
+* (Apr 18) finish first draft of slide deck
+* (Apr 19)
+   * review
+   * walk-through
+   * present at MS-internal "Python Brownbag"
 * 
 * (May 3, 14:35) (Cleveland) present at PyCon
    * first day, fifth session (second after lunch)
@@ -34,9 +40,9 @@ Log of Time Spent
 *practice sessions*
 
 ==== ======== ========= ==========
- #    date    minutes   notes
+ #     date    minutes    notes
 ==== ======== ========= ==========
- 1.
+ 1.   Apr 19   ~60       "MS Python Brownbag"
  2.
  3.
  4.
@@ -154,6 +160,10 @@ Slides / Granular Outline
       * how-to
 * Thanks!  Questions?
 * Thanks!  Questions?  Resources
+
+...
+
+https://bit.ly/2ZmMJW0
 
 https://docs.google.com/presentation/d/1_qbtSCAS9KhxVH77np106D0gq1wjHUxrVFHgZuxBupc
 
