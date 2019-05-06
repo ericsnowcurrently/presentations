@@ -25,16 +25,23 @@ Log of Time Spent
    * review
    * walk-through
    * present at MS-internal "Python Brownbag"
+* (Apr 20) looked at Gary Bernhardt's "How to Prepare a Talk" (www.deconstructconf.com/blog/how-to-prepare-a-talk)
+* (Apr 27) ripped out superflous slides
+* (May 2) re-structured "Context" part (with diagrams)
 * 
 * (May 3, 14:35) (Cleveland) present at PyCon
-   * first day, fifth session (second after lunch)
-   * 14:35, 30 minutes
-   * opposing talks:
-      * "Take Back the Web with GraphQL" - Robert Myers
-      * "Everything at Once: Python's Many Concurrency Models" - Jess Shapiro
-      * "Life Is Better Painted Black, or: How to Stop Worrying and Embrace Auto-Formatting" - Łukasz Langa
-      * "Wily Python: Writing simpler and more maintainable Python" - Anthony Shaw
-      * "Programación para periodistas: el uso de Python en la extracción y análisis de reportajes" - Judite Macedo Cypreste
+   * info
+      * first day, fifth session (second after lunch)
+      * 14:35, 30 minutes
+      * opposing talks:
+         * "Take Back the Web with GraphQL" - Robert Myers
+         * "Everything at Once: Python's Many Concurrency Models" - Jess Shapiro
+         * "Life Is Better Painted Black, or: How to Stop Worrying and Embrace Auto-Formatting" - Łukasz Langa
+         * "Wily Python: Writing simpler and more maintainable Python" - Anthony Shaw
+         * "Programación para periodistas: el uso de Python en la extracción y análisis de reportajes" - Judite Macedo Cypreste
+   * slides:  https://docs.google.com/presentation/d/1BuU6e-CKdZxDL5z9VBp19LAaIY8Ys2-jlcz-mD0Vr3c/
+   * actual runtime:  27 minutes
+   * reaction:  great
 
 
 *practice sessions*
@@ -43,8 +50,8 @@ Log of Time Spent
  #     date    minutes    notes
 ==== ======== ========= ==========
  1.   Apr 19   ~60       "MS Python Brownbag"
- 2.
- 3.
+ 2.   May 2    ~15
+ 3.   May 3    ~20
  4.
  5.
  6.
