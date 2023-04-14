@@ -16,24 +16,14 @@ def handle_in_new_interp(client, **kwargs):
         ''')
 
 
-def handle_conn_own_gil(client):
-    t = Thread(
-        target=handle_in_new_interp,
-        args=(client,),
-        kwargs=dict(isolated=True),
-        daemon=True,
-    )
-    t.start()
+def handle_conn_own_gil(client, run_fib):
+    assert run_fib is None
+    handle_in_new_interp(client, isolated=True)
 
 
-def handle_conn_shared(client):
-    t = Thread(
-        target=handle_in_new_interp,
-        args=(client,),
-        kwargs=dict(isolated=False),
-        daemon=True,
-    )
-    t.start()
+def handle_conn_shared(client, run_fib):
+    assert run_fib is None
+    handle_in_new_interp(client, isolated=False)
 
 
 if __name__ == '__main__':
@@ -47,4 +37,4 @@ if __name__ == '__main__':
         handle_conn = HANDLERS[sys.argv[1]]
     except IndexError:
         handle_conn = handle_conn_own_gil
-    server(handle_conn)
+    server(handle_conn, None)

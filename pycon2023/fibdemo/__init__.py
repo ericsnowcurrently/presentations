@@ -4,6 +4,7 @@
 # export PYTHONWARNINGS=ignore
 
 from socket import *
+from threading import Thread
 import time
 
 
@@ -36,7 +37,7 @@ def req_handler(client, run_fib):
     print("Closed")
 
 
-def server(handle_conn):
+def server(handle_conn, run_fib):
     sock = socket(AF_INET, SOCK_STREAM)
     sock.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
     sock.bind(address)
@@ -44,7 +45,11 @@ def server(handle_conn):
     while True:
         client, addr = sock.accept()
         print("Connection", addr)
-        handle_conn(client)
+        t = Thread(
+            target=handle_conn,
+            args=(client, run_fib),
+            daemon=True,
+        ).start()
 
 
 def client_show_long_running():
