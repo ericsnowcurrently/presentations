@@ -1,10 +1,23 @@
 # Isolating Extension Modules
 
 
-## Resources:
+## Resources
+
+how-to:
 
 * https://docs.python.org/3/howto/isolating-extensions.html
 * https://peps.python.org/pep-0630/
+
+slides:
+
+* https://docs.google.com/presentation/d/16x-MDia4DbFY6C4epqyHVKMPKjbhxFtODvU2CwS0g_Q/
+
+other:
+
+* https://peps.python.org/pep-0489/
+* https://peps.python.org/pep-0573/
+* https://peps.python.org/pep-0687/
+* https://peps.python.org/pep-0697/
 
 
 ## High-Level Concerns
