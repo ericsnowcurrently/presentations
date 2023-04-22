@@ -3,10 +3,11 @@
 
 ## Resources
 
-how-to:
+docs:
 
 * https://docs.python.org/3/howto/isolating-extensions.html
-* https://peps.python.org/pep-0630/
+* (https://peps.python.org/pep-0630/)
+* https://docs.python.org/3/c-api/type.html#creating-heap-allocated-types
 
 slides:
 
