@@ -1,6 +1,13 @@
 # Supplemental Information
 
 
+## Resources
+
+slides:
+
+https://docs.google.com/presentation/d/1pwQru2XeCufzJVkif9LH0YuA-wJ9kFeUW7BB60UrNMc/
+
+
 ## About Me
 
 * Eric Snow
